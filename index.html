@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nutan Glam Zone | Elite Artistry & 16-Hour Longevity | Bengaluru</title>
+    
+    <meta name="description" content="Elite Lakmé Academy Certified Artist. Specializing in the 16-Hour Wear Promise and 4K Digital Resolution.">
+    <meta name="author" content="Nutan Glam Zone">
+    <meta name="theme-color" content="#0f0f0f">
+
+    <meta property="og:title" content="Nutan Glam Zone | The Immortal Glow">
+    <meta property="og:image" content="https://drive.google.com/uc?export=view&id=1l5yEp8VlFpLS_zMBwG-poV9E4_898LOq">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontSize: { 'tiny': '0.6rem', 'xs': '0.75rem', 'sm': '0.85rem', 'base': '0.95rem', 'lg': '1.1rem', 'xl': '1.25rem', '2xl': '1.5rem', '3xl': '1.875rem', '4xl': '2.25rem', '5xl': '3rem', '6xl': '4rem' },
+                    colors: { gold: { DEFAULT: '#D4AF37', 50: '#fdfaf2', 500: '#D4AF37', 600: '#bc922b' }, onyx: '#0f0f0f' }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-[#fafafa] text-stone-800 font-sans selection:bg-gold-500 selection:text-white overflow-x-hidden">
+
+    <div id="loader" class="fixed inset-0 bg-white z-[300] flex flex-col items-center justify-center transition-all duration-1000">
+        <div class="relative mb-8">
+            <div class="w-32 h-32 border-[1px] border-stone-100 border-t-gold-500 rounded-full animate-spin-slow"></div>
+            <div class="absolute inset-0 flex items-center justify-center font-serif italic text-xl text-gold-500">N</div>
+        </div>
+        <h2 class="text-[9px] tracking-[1em] uppercase font-black text-stone-300 animate-pulse">Establishing Sovereign Luxury</h2>
+    </div>
+
+    <a href="https://wa.me/+919911642274" target="_blank" class="whatsapp-float group z-[200]">
+        <div class="relative flex items-center justify-center w-14 h-14 bg-[#25d366] rounded-full shadow-2xl transition-all group-hover:scale-110">
+            <i class="fab fa-whatsapp text-2xl text-white"></i>
+        </div>
+        <div class="ml-4 flex flex-col bg-white px-5 py-2 rounded-full shadow-xl opacity-0 group-hover:opacity-100 -translate-x-10 group-hover:translate-x-0 transition-all border border-stone-50">
+            <span class="text-[9px] font-bold uppercase tracking-widest text-stone-900">Chat with Nutan</span>
+        </div>
+    </a>
+
+    <div class="bg-onyx text-white py-3 px-6 text-center sticky top-0 z-[150] border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex justify-between items-center text-[8px] font-black tracking-[0.5em] uppercase">
+            <span class="hidden md:block">Premier Lakmé Academy Certified</span>
+            <div class="flex items-center space-x-4"><p>✨ <span class="text-gold-400">16-HOUR WEAR PROMISE</span> IS LIVE ✨</p></div>
+            <span class="hidden md:block">Bengaluru • National • Global</span>
+        </div>
+    </div>
+
+    <nav class="bg-white/80 backdrop-blur-2xl sticky top-[40px] z-[140] border-b border-stone-100 h-20 transition-all" id="navbar">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center h-full">
+            <div class="flex flex-col cursor-pointer" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+                <h1 class="text-xl lg:text-2xl font-serif font-black tracking-tighter text-gold-500 uppercase leading-none">Nutan</h1>
+                <span class="text-[7px] tracking-[0.6em] uppercase text-stone-400 font-black mt-1">Glam Zone Bengaluru</span>
+            </div>
+            
+            <div class="hidden lg:flex items-center space-x-8 text-[8px] font-black tracking-[0.3em] uppercase text-stone-500">
+                <a href="#about" class="nav-link hover:text-gold-500">The Artist</a>
+                <a href="#durability" class="nav-link hover:text-gold-500">Durability</a>
+                <a href="#roadmap" class="nav-link hover:text-gold-500">Roadmap</a>
+                <a href="#challenges" class="nav-link hover:text-gold-500">Challenges</a>
+                <a href="#certifications" class="nav-link hover:text-gold-500">Credentials</a>
+                <a href="#refer" class="nav-link hover:text-gold-500">Rewards</a>
+                <a href="#gallery" class="nav-link hover:text-gold-500">Portfolio</a>
+                <a href="#faq" class="nav-link hover:text-gold-500">FAQ</a>
+                <a href="#booking" class="bg-onyx text-white px-6 py-2 rounded-full hover:bg-gold-500 transition-all">Book Now</a>
+            </div>
+
+            <button onclick="toggleMenu()" class="lg:hidden w-10 h-10 border border-stone-100 rounded-full flex flex-col items-center justify-center space-y-1">
+                <span class="block w-5 h-[1px] bg-stone-900"></span>
+                <span class="block w-3 h-[1px] bg-gold-500 ml-auto mr-2"></span>
+                <span class="block w-5 h-[1px] bg-stone-900"></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="relative min-h-[85vh] flex flex-col justify-center items-center text-center px-6 overflow-hidden">
+        <div class="relative z-10 max-w-6xl">
+            <div class="mb-8 inline-flex items-center bg-gold-50 text-gold-600 px-6 py-2 rounded-full text-[9px] font-black tracking-[0.5em] uppercase border border-gold-200">
+                <span class="w-2 h-2 bg-gold-500 rounded-full mr-3 pulse"></span> Elite Artist Commission 2026
+            </div>
+            
+            <h2 class="text-5xl md:text-8xl font-serif mb-10 italic text-stone-800 tracking-tighter leading-[0.9] animate-fade-up">
+                Sculpting <br> <span class="text-gold-500 not-italic">Immortal</span> <br> Elegance
+            </h2>
+            
+            <p class="text-[10px] text-stone-400 mb-16 max-w-3xl mx-auto font-black tracking-[0.5em] uppercase italic leading-loose">
+                LAKMÉ ACADEMY CERTIFIED • 16-HR PERSISTENCE • 4K HD VISUALS
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-8 items-center justify-center">
+                <a href="#booking" class="gold-gradient text-white px-12 py-5 rounded-full font-black uppercase tracking-[0.4em] text-[9px] shadow-2xl hover:scale-105 transition-all">
+                    Initiate Consultation
+                </a>
+                <a href="https://www.instagram.com/nutan_glam_zone" target="_blank" class="flex items-center space-x-4 border-b-2 border-stone-800 text-stone-800 px-2 py-6 font-black uppercase tracking-[0.5em] text-[8px] hover:text-gold-500 hover:border-gold-500 transition-all">
+                    <i class="fab fa-instagram text-2xl"></i>
+                    <span>@nutan_glam_zone</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="py-10 bg-white border-y border-stone-50 overflow-hidden">
+        <div class="animate-marquee flex items-center whitespace-nowrap">
+            <span class="mx-16 text-stone-200 font-bold text-3xl uppercase tracking-widest italic">MAC COSMETICS</span>
+            <span class="mx-16 text-gold-500 font-serif text-xl px-4 py-1 border-2 border-gold rounded-lg">GLAMWITHNUTAN</span>
+            <span class="mx-16 text-stone-200 font-bold text-3xl uppercase tracking-widest italic">HUDA BEAUTY</span>
+            <span class="mx-16 text-stone-200 font-bold text-3xl uppercase tracking-widest italic">CHARLOTTE TILBURY</span>
+            <span class="mx-16 text-stone-200 font-bold text-3xl uppercase tracking-widest italic">DIOR GLOW</span>
+        </div>
+    </div>
+
+    <section id="about" class="py-40 px-6 max-w-7xl mx-auto relative overflow-hidden">
+        <div class="grid lg:grid-cols-2 gap-32 items-center">
+            <div class="relative group">
+                <div class="absolute -top-12 -left-12 w-48 h-48 border-t-[1px] border-l-[1px] border-gold-500/40"></div>
+                <div class="rounded-[3rem] overflow-hidden shadow-2xl transition-all duration-1000 rotate-[-2deg] group-hover:rotate-0 aspect-[4/5] bg-stone-100">
+                    <img src="https://drive.google.com/uc?export=view&id=1l5yEp8VlFpLS_zMBwG-poV9E4_898LOq" class="w-full h-full object-cover transition-all duration-[1.5s]" alt="Nutan">
+                </div>
+                <div class="absolute -bottom-10 -right-10 bg-white p-10 rounded-[2.5rem] shadow-2xl border border-stone-50 flex flex-col items-center animate-float">
+                    <p class="text-6xl font-serif text-gold-500 font-black leading-none counter" data-target="8">0</p>
+                    <p class="text-[9px] uppercase tracking-[0.5em] font-black text-stone-400 mt-2 text-center leading-relaxed">Years of <br>Elite Mastery</p>
+                </div>
+            </div>
+
+            <div class="space-y-10">
+                <div class="space-y-4">
+                    <span class="text-gold-500 font-black tracking-[0.6em] text-[10px] uppercase block">Identity & Accreditation</span>
+                    <h3 class="text-5xl lg:text-7xl font-serif text-stone-800 italic leading-tight">Meet Nutan</h3>
+                </div>
+                
+                <p class="text-sm text-stone-500 leading-relaxed font-light italic border-l-2 border-gold-500 pl-10">
+                    "I am a professional makeup artist certified by **Lakmé Academy** with extensive experience in premium professional parlors."
+                </p>
+
+                <p class="text-sm text-stone-500 leading-loose font-light italic">
+                    Mastering the art of the **Indian Bridal Look**, I specialize in long-lasting, high-definition makeup that enhances your natural elegance for your most precious moments.
+                </p>
+
+                <div class="grid grid-cols-2 gap-8 pt-10">
+                    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-stone-50 text-center">
+                        <p class="text-4xl font-serif text-gold-500 font-black counter" data-target="500">0</p>
+                        <p class="text-[8px] uppercase tracking-widest font-black text-stone-400 mt-4">Brides Styled</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-stone-50 text-center">
+                        <p class="text-4xl font-serif text-gold-500 font-black counter" data-target="100">0</p>
+                        <p class="text-[8px] uppercase tracking-widest font-black text-stone-400 mt-4">Hygiene Focus %</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="durability" class="py-40 bg-onyx text-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-32 items-center">
+                <div class="space-y-12">
+                    <span class="text-gold-500 font-black tracking-[0.7em] text-[10px] uppercase">The Physics of Beauty</span>
+                    <h3 class="text-5xl md:text-6xl font-serif italic tracking-tighter">The 16-Hour <br>Persistence</h3>
+                    
+                    <div class="space-y-10 border-l border-white/10 ml-4">
+                        <div class="relative pl-12 pb-12">
+                            <div class="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-gold-500"></div>
+                            <h6 class="text-xs font-black uppercase text-gold-500 tracking-widest mb-2">Stage 01: Dermal Prep</h6>
+                            <p class="text-xs text-stone-500 italic">Hydrating the deep layers to prevent foundation absorption and dry-creasing.</p>
+                        </div>
+                        <div class="relative pl-12 pb-12">
+                            <div class="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-stone-700"></div>
+                            <h6 class="text-xs font-black uppercase tracking-widest mb-2">Stage 02: Sandwich Bonds</h6>
+                            <p class="text-xs text-stone-500 italic">Inter-locking liquid and powder pigments with micro-fixatives.</p>
+                        </div>
+                        <div class="relative pl-12">
+                            <div class="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-stone-700"></div>
+                            <h6 class="text-xs font-black uppercase tracking-widest mb-2">Stage 03: Immortal Seal</h6>
+                            <p class="text-xs text-stone-500 italic">Final medical-grade setting to ensure sweat-proof and tear-proof durability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <div class="bg-white/5 p-12 rounded-[4rem] border border-white/10 backdrop-blur-3xl">
+                        <i class="fas fa-video text-5xl text-gold-500 mb-8 block animate-pulse"></i>
+                        <h6 class="text-2xl font-serif italic mb-4">4K Pixel Control</h6>
+                        <p class="text-stone-500 text-sm font-light leading-relaxed">Calibrated pigments that blur topography for high-resolution videography.</p>
+                    </div>
+                    <div class="bg-white/5 p-12 rounded-[4rem] border border-white/10 backdrop-blur-3xl">
+                        <i class="fas fa-gem text-5xl text-gold-500 mb-8 block animate-pulse"></i>
+                        <h6 class="text-2xl font-serif italic mb-4">Global Brands</h6>
+                        <p class="text-stone-500 text-sm font-light leading-relaxed">Authentic luxury inventory: MAC, Huda Beauty, Dior, Estée Lauder.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="py-40 bg-stone-50 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-32 space-y-6">
+                <span class="text-gold-500 font-black tracking-[0.8em] text-[10px] uppercase">The Journey</span>
+                <h3 class="text-5xl font-serif italic text-stone-800 tracking-tighter leading-none">The Bridal Roadmap</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-12 relative">
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-[1px] bg-gold-500/20"></div>
+                <div class="bg-white p-10 rounded-[3rem] shadow-sm relative z-10 space-y-6 group hover:bg-onyx transition-all duration-700">
+                    <div class="w-12 h-12 bg-onyx text-white rounded-full mx-auto flex items-center justify-center font-black group-hover:bg-gold-500 transition-colors">01</div>
+                    <h6 class="text-[9px] font-black uppercase text-center group-hover:text-white">Analysis</h6>
+                    <p class="text-[11px] text-stone-400 italic text-center">Deep обсуждение skin-chemistry and outfit aesthetic.</p>
+                </div>
+                <div class="bg-white p-10 rounded-[3rem] shadow-sm relative z-10 space-y-6 group hover:bg-onyx transition-all duration-700">
+                    <div class="w-12 h-12 bg-onyx text-white rounded-full mx-auto flex items-center justify-center font-black group-hover:bg-gold-500 transition-colors">02</div>
+                    <h6 class="text-[9px] font-black uppercase text-center group-hover:text-white">Discovery</h6>
+                    <p class="text-[11px] text-stone-400 italic text-center">Trial session to finalize pixel-perfect shade matching.</p>
+                </div>
+                <div class="bg-white p-10 rounded-[3rem] shadow-sm relative z-10 space-y-6 group hover:bg-onyx transition-all duration-700">
+                    <div class="w-12 h-12 bg-onyx text-white rounded-full mx-auto flex items-center justify-center font-black group-hover:bg-gold-500 transition-colors">03</div>
+                    <h6 class="text-[9px] font-black uppercase text-center group-hover:text-white">Preparation</h6>
+                    <p class="text-[11px] text-stone-400 italic text-center">Wedding morning skin-integrity and hygiene prep.</p>
+                </div>
+                <div class="bg-white p-10 rounded-[3rem] shadow-sm relative z-10 space-y-6 group hover:bg-onyx transition-all duration-700">
+                    <div class="w-12 h-12 bg-gold-500 text-white rounded-full mx-auto flex items-center justify-center font-black">04</div>
+                    <h6 class="text-[9px] font-black uppercase text-center group-hover:text-white">Transformation</h6>
+                    <p class="text-[11px] text-stone-400 italic text-center">16-hour endurance application at your venue.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="challenges" class="py-40 px-6 bg-white">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-24 items-center">
+            <div class="md:w-1/2 space-y-12">
+                <span class="text-gold-500 font-black tracking-[0.5em] text-[10px] uppercase block">Problem Solver</span>
+                <h3 class="text-5xl font-serif italic text-stone-800">Defeating Common <br>Makeup Issues</h3>
+                <div class="space-y-8">
+                    <div class="p-8 bg-stone-50 rounded-3xl border-l-4 border-gold-500">
+                        <h6 class="text-xs font-black uppercase tracking-widest">Oxidation (Foundation Turning Grey)</h6>
+                        <p class="text-[11px] text-stone-400 italic mt-2">Our pH-balancing skin prep prevents foundations from reacting to natural skin oils.</p>
+                    </div>
+                    <div class="p-8 bg-stone-50 rounded-3xl border-l-4 border-onyx">
+                        <h6 class="text-xs font-black uppercase tracking-widest">Cakey Texture & Pores</h6>
+                        <p class="text-[11px] text-stone-400 italic mt-2">Proprietary layering ensures maximum coverage with zero bulk or visible texture.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 rounded-[5rem] overflow-hidden aspect-square shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-32 bg-onyx text-white px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-20 text-center">
+            <div>
+                <i class="fas fa-certificate text-5xl text-gold-500 mb-8 block transition-transform hover:rotate-12"></i>
+                <h6 class="text-[9px] font-black uppercase tracking-[0.5em]">Lakmé Certified</h6>
+                <p class="text-xs text-stone-500 mt-4 italic leading-loose">Elite artistry credentials from India's gold-standard academy.</p>
+            </div>
+            <div>
+                <i class="fas fa-scissors text-5xl text-gold-500 mb-8 block transition-transform hover:rotate-12"></i>
+                <h6 class="text-[9px] font-black uppercase tracking-[0.5em]">Parlor Expertise</h6>
+                <p class="text-xs text-stone-500 mt-4 italic leading-loose">Precision skills forged in high-stakes premium parlors.</p>
+            </div>
+            <div>
+                <i class="fas fa-shield-virus text-5xl text-gold-500 mb-8 block transition-transform hover:rotate-12"></i>
+                <h6 class="text-[9px] font-black uppercase tracking-[0.5em]">Surgical Hygiene</h6>
+                <p class="text-xs text-stone-500 mt-4 italic leading-loose">UV-C sterilization and medical-grade hygiene protocols.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="refer" class="py-48 insta-gradient text-white text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <h3 class="text-6xl md:text-8xl font-serif italic mb-12 drop-shadow-2xl">Refer & Glow</h3>
+            <p class="text-white/90 font-light italic mb-20 text-2xl leading-relaxed">Share the beauty! Refer a bride and unlock a **FREE Engagement Look** for yourself.</p>
+            <a href="#booking" class="inline-block bg-white text-onyx px-20 py-8 rounded-full font-black uppercase text-[10px] tracking-[0.5em] shadow-3xl hover:scale-110 transition-all">Get Reward Code</a>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-48 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="text-5xl font-serif italic text-center mb-32">The Visual Portfolio</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+                <div class="rounded-[4rem] overflow-hidden bg-onyx aspect-[9/16] shadow-3xl transform transition-all duration-1000 hover:-translate-y-6">
+                    <iframe src="https://www.instagram.com/reel/DVJVXBcAYUP/embed" class="w-full h-full opacity-90 hover:opacity-100 transition-opacity" frameborder="0"></iframe>
+                </div>
+                <div class="rounded-[4rem] overflow-hidden bg-onyx aspect-[9/16] shadow-3xl transform transition-all duration-1000 hover:-translate-y-6">
+                    <iframe src="https://www.instagram.com/reel/DTm5dHuDGIc/embed" class="w-full h-full opacity-90 hover:opacity-100 transition-opacity" frameborder="0"></iframe>
+                </div>
+                <div class="rounded-[4rem] overflow-hidden bg-onyx aspect-[9/16] shadow-3xl transform transition-all duration-1000 hover:-translate-y-6">
+                    <iframe src="https://www.instagram.com/reel/DWon7AEARDK/embed" class="w-full h-full opacity-90 hover:opacity-100 transition-opacity" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-48 bg-stone-50 px-6 border-y border-stone-100">
+        <div class="max-w-4xl mx-auto space-y-12">
+            <h3 class="text-4xl font-serif italic text-center mb-32">Concierge Inquiries</h3>
+            <div class="bg-white p-12 rounded-[3.5rem] border border-stone-50 hover:border-gold-500 transition-all shadow-sm">
+                <h6 class="text-base font-bold mb-6 flex items-center"><span class="w-8 h-8 rounded-full bg-gold-100 flex items-center justify-center text-[10px] mr-6 text-gold-500 font-black">01</span> Do you travel to outstation venues?</h6>
+                <p class="text-sm text-stone-400 italic pl-14">Yes, Nutan travels globally for premier bridal commissions. All logistics and stay are managed by the client.</p>
+            </div>
+            <div class="bg-white p-12 rounded-[3.5rem] border border-stone-50 hover:border-gold-500 transition-all shadow-sm">
+                <h6 class="text-base font-bold mb-6 flex items-center"><span class="w-8 h-8 rounded-full bg-gold-100 flex items-center justify-center text-[10px] mr-6 text-gold-500 font-black">02</span> Is a pre-wedding trial session provided?</h6>
+                <p class="text-sm text-stone-400 italic pl-14">Highly recommended. Trial sessions ensure shade-matching and skin-chemistry response are locked before the event.</p>
+            </div>
+            <div class="bg-white p-12 rounded-[3.5rem] border border-stone-50 hover:border-gold-500 transition-all shadow-sm">
+                <h6 class="text-base font-bold mb-6 flex items-center"><span class="w-8 h-8 rounded-full bg-gold-100 flex items-center justify-center text-[10px] mr-6 text-gold-500 font-black">03</span> How do I lock my wedding date?</h6>
+                <p class="text-sm text-stone-400 italic pl-14">A 30% non-refundable booking advance is required to block the slot against all other inquiries.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-48 booking-bg px-6">
+        <div class="max-w-7xl mx-auto bg-white/95 backdrop-blur-3xl rounded-[5rem] shadow-3xl overflow-hidden flex flex-col lg:flex-row border border-white">
+            <div class="lg:w-5/12 gold-gradient p-20 text-white flex flex-col justify-between">
+                <h3 class="text-6xl font-serif italic leading-none mb-10">Reserve Your Perfection</h3>
+                <div class="space-y-10">
+                    <div class="flex items-center space-x-6">
+                        <i class="fas fa-video text-2xl"></i>
+                        <span class="text-[9px] font-black uppercase tracking-[0.3em]">4K Camera Ready Finish</span>
+                    </div>
+                    <div class="flex items-center space-x-6">
+                        <i class="fas fa-gem text-2xl"></i>
+                        <span class="text-[9px] font-black uppercase tracking-[0.3em]">Premium Global Brands</span>
+                    </div>
+                </div>
+                <p class="text-3xl font-serif italic mt-20 underline">@nutan_glam_zone</p>
+            </div>
+
+            <div class="lg:w-7/12 p-16 lg:p-32 bg-white">
+                <form id="bookingForm" class="space-y-16">
+                    <div class="space-y-10">
+                        <label class="text-[9px] font-black tracking-[0.5em] text-stone-300 block uppercase italic">Phase 01. Select Aesthetic</label>
+                        <div class="grid grid-cols-2 gap-8">
+                            <div id="btn-bridal" onclick="selectService('Bridal Glam', 'btn-bridal')" class="p-8 border rounded-[2.5rem] text-center cursor-pointer font-black text-[9px] uppercase transition-all service-active">Bridal Glam</div>
+                            <div id="btn-engagement" onclick="selectService('Engagement', 'btn-engagement')" class="p-8 border rounded-[2.5rem] text-center cursor-pointer font-black text-[9px] uppercase transition-all">Engagement</div>
+                            <div id="btn-reception" onclick="selectService('Reception', 'btn-reception')" class="p-8 border rounded-[2.5rem] text-center cursor-pointer font-black text-[9px] uppercase transition-all">Reception</div>
+                            <div id="btn-party" onclick="selectService('Party Look', 'btn-party')" class="p-8 border rounded-[2.5rem] text-center cursor-pointer font-black text-[9px] uppercase transition-all">Party Look</div>
+                        </div>
+                    </div>
+                    <div class="space-y-16 pt-10">
+                        <input type="text" id="name" required placeholder="Full Identity" class="w-full pb-6 border-b outline-none focus:border-gold-500 text-2xl font-light">
+                        <input type="tel" id="phone" required placeholder="WhatsApp Link" class="w-full pb-6 border-b outline-none focus:border-gold-500 text-2xl font-light">
+                        <input type="text" id="promo" placeholder="Reward Code (Optional)" class="w-full pb-6 border-b outline-none focus:border-gold-500 text-2xl font-light italic">
+                    </div>
+                    <input type="hidden" id="selectedService" value="Bridal Glam">
+                    <button type="submit" id="submitBtn" class="w-full gold-gradient text-white py-10 rounded-full font-black uppercase tracking-[0.6em] text-[11px] shadow-3xl active:scale-95 transition-all">Establish Handshake</button>
+                </form>
+
+                <div id="successMsg" class="hidden text-center py-24 animate-fade-in">
+                    <i class="fas fa-check-circle text-gold-500 text-6xl mb-10"></i>
+                    <h4 class="text-5xl font-serif italic mb-8">Verified</h4>
+                    <p class="text-lg text-stone-400 italic">Redirecting to secured VIP channel...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-64 bg-onyx text-white text-center">
+        <h2 class="text-8xl font-serif font-black uppercase tracking-[0.6em] text-gold-500">Nutan</h2>
+        <div class="w-48 h-px bg-white/5 mx-auto my-32"></div>
+        <p class="text-stone-600 text-[10px] tracking-[0.5em] uppercase font-black">© 2026 NUTAN GLAM ZONE ARTISTRY | SOVEREIGN EXCELLENCE</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

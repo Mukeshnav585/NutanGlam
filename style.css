@@ -1,0 +1,18 @@
+html { scroll-behavior: smooth; font-size: 15px; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+.font-serif { font-family: 'Playfair Display', serif; }
+.font-sans { font-family: 'Montserrat', sans-serif; }
+.gold-gradient { background: linear-gradient(135deg, #D4AF37, #F9E2AF, #D4AF37); background-size: 200% 200%; animation: flow 6s ease infinite; }
+@keyframes flow { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+.insta-gradient { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+.booking-bg { background: linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.99)), url('https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center; background-attachment: fixed; }
+.service-active { border-color: #D4AF37 !important; background-color: #D4AF37 !important; color: white !important; box-shadow: 0 40px 80px rgba(212, 175, 55, 0.4) !important; transform: translateY(-15px) scale(1.05); }
+@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+.animate-marquee { display: flex; width: fit-content; animation: marquee 35s linear infinite; }
+@keyframes pulse-gold { 0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.6); } 70% { transform: scale(1); box-shadow: 0 0 0 40px rgba(212, 175, 55, 0); } 100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); } }
+.pulse { animation: pulse-gold 3s infinite; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+.animate-fade-in { animation: fadeIn 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; }
+.animate-spin-slow { animation: spin 10s linear infinite; }
+.whatsapp-float { position: fixed; bottom: 50px; right: 50px; display: flex; align-items: center; text-decoration: none; }
+.nav-scrolled { height: 80px !important; box-shadow: 0 20px 60px rgba(0,0,0,0.03); background: rgba(255,255,255,0.95) !important; }
